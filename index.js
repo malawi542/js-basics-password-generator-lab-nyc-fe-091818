@@ -3,7 +3,11 @@ window.addEventListener("load", () => {
   
   // 1. figure out how long our password should break
   
-  document.addEventListener('submit', (event) => )
+  document.addEventListener('submit', (event) => {
+    // don't go to a new page OR don't refresh 
+    event.preventDefault()
+    console.log(event)
+  })
   
   // 2. We need to make a password from the ground up 
   
