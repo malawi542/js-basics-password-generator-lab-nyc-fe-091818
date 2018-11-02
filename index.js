@@ -3,6 +3,8 @@ window.addEventListener("load", () => {
   
   // 1. figure out how long our password should break
   
+  document.addEventListener('submit', (event) => )
+  
   // 2. We need to make a password from the ground up 
   
   // 3. We need to keep track of requirements
